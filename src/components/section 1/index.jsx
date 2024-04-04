@@ -25,7 +25,7 @@ export default function Section1() {
         </div>
 
         {/* Owner card */}
-        <div className="mt-[64px] lg:mt-[128px] md:w-[300px] lg:w-[600px]">
+        <div className="mt-[64px] lg:mt-[128px] md:w-[300px] lg:w-[600px] pr-4">
             <OwnerCard photo={photo} name={"Rwanda Melflor"} mail={"zerowaste.com"}/>
         </div>
       </div>
