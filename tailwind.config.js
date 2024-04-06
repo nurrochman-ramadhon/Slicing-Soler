@@ -17,7 +17,8 @@ module.exports = {
         text2:"#78350F",
         text3:"#0F172A",
         text4:"#475569",
-        button1:"#FCD34D"
+        button1:"#FCD34D",
+        bgPurple:"#581C87"
       }
     },
   },
