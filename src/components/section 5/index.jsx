@@ -1,5 +1,5 @@
 import Image from "next/image";
-import media from "../../../public/assets/section 5/left.png";
+import media from "../../../public/assets/section 5/Left.png";
 import { Paragraph, Subtitle, Title } from "../shared/textStyle";
 export default function Section5() {
   return (
