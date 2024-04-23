@@ -1,4 +1,3 @@
-import Image from "next/image";
 import { Paragraph, Subtitle, Title } from "../shared/textStyle";
 import ButtonTheme from "../shared/button";
 import icon1 from "../../../public/assets/section 4/Icon 1.png";
