@@ -15,7 +15,7 @@ export default function Section2() {
       <div className=" bg-red-200">
         <div className="absolute flex justify-between -z-10 w-full">
           <div className="absolute top-[190px]">
-            <Image src={circleBg1} alt="bg1" className="w-[100px] md:w-full" />
+            <Image src={circleBg1} alt="bg1" className="w-[100px] md:w-[230px] lg:w-full" />
             <div className="absolute top-[30px] lg:top-[122px] left-[30px] lg:left-[74px]">
               <Image
                 src={circleComponent3}
@@ -25,7 +25,7 @@ export default function Section2() {
             </div>
           </div>
           <div className="absolute top-[280px] lg:top-[400px] right-0">
-            <Image src={circleBg2} alt="bg2" className="w-[100px] md:w-full" />
+            <Image src={circleBg2} alt="bg2" className="w-[100px] md:w-[250px] lg:w-full" />
             <div className="absolute top-[106px] right-[50px]">
               <Image
                 src={circleComponent4}
