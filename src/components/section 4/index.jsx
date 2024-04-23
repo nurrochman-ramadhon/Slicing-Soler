@@ -51,11 +51,13 @@ export default function Section4() {
   const [curr, setCurr] = useState(0);
   const onHandlePrev = () => {
     const slider = document.getElementById("slider");
-    slider.scrollLeft = slider.scrollLeft-460;
+    const carouselCard = document.getElementsByClassName("carousel-card");
+    slider.scrollLeft = slider.scrollLeft-carouselCard[0].offsetWidth;
   };
   const onHandleNext = () =>{
     const slider = document.getElementById("slider");
-    slider.scrollLeft = slider.scrollLeft+460;
+    const carouselCard = document.getElementsByClassName("carousel-card");
+    slider.scrollLeft = slider.scrollLeft+carouselCard[0].offsetWidth;
 }
   return (
     <div className=" bg-bgPurple">
