@@ -51,7 +51,7 @@ export default function Section4() {
   const [curr, setCurr] = useState(0);
   const onHandlePrev = () => {
     const slider = document.getElementById("slider");
-    slider.scrollLeft = slider.scrollLeft+20;
+    slider.scrollLeft = slider.scrollLeft-460;
   };
   const onHandleNext = () =>{
     const slider = document.getElementById("slider");
